@@ -7,26 +7,19 @@
 // button.addEventListener("click",()=>{
 //     console.log(add(+input_1.value,+input_2.value));
 // })
-
 // number 5,6.67 ,-90
 //string "apple"
 //boolean true, false 
 // no var only let const'
-
-
 // let person ="ishaq";  //type fixed hgogai khud hi
 // person="56";   
-
 // let person;    //aesy type any rhygi
 // person=56;
 // person="nadir"   
-
 // let person:string = "muzammil"     //no recommended way
-
 // const names:string[]=["4","4"];
 // let names:string[]=[];
 // names.push("23");
-
 // const person:{
 //     name:string;
 //     age:number;
@@ -39,14 +32,12 @@
 // }
 // person.age=23;
 // person.address="street no 07"
-
 // type Person={
 //     name:string;
 //     age:number;
 //     email:string;
 //     address?:string
 // }
-
 // const person1:Person={
 // name:"muzammil",
 // age:22,
@@ -92,3 +83,10 @@
 //  return a+b;
 // }
 // myfunc=add;
+const btn = document.querySelector("button");
+function print() {
+    console.log("clicked!");
+}
+btn.addEventListener("click", print);
+export {};
+//# sourceMappingURL=app.js.map
