@@ -83,4 +83,4 @@ function log(creature:Creature){
         console.log(creature.runningSpeed);
     }
 }
-log({name:"hen",flyingSpeed:50})
+log({name:"hen",runningSpeed:60});
